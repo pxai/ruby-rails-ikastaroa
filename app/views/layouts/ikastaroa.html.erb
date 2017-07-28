@@ -13,15 +13,16 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-  <header>
-  <div class="container">
+<div class="container">
+
     <div class="row">
-      <div class="one column"><%= image_tag "header-ruby-logo.png" %></div>
-      <div class="eleven columns">  <h1>Ruby Ikastaroa</h1></div>
+      <header>
+        <div class="one column"><%= image_tag "header-ruby-logo.png" %></div>
+        <div class="eleven columns">  <h1>Ruby Ikastaroa</h1></div>
+      </header>
     </div>
-    </div>
-</header>
-  <div class="container">
+
+
     <div class="row">
       <div class="twelve columns">
         <nav>
@@ -29,9 +30,7 @@
         </nav>
       </div>
     </div>
-  </div>
-<div id="container">
-    <div class="container">
+
     <div class="row">
       <div class="nine columns">
           <%= yield %>
@@ -40,10 +39,15 @@
          <%= render "shared/ikastaroa" %>
       </div>
     </div>
+  
+  <div class="row">
+    <div class="twelve columns">
+        <footer>
+          <%= render "shared/oina" %>
+          </footer>
+    </div>
   </div>
-
+  
 </div>
-<footer>
-  </footer>
 </body>
 </html>

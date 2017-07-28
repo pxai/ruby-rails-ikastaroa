@@ -1,8 +1,9 @@
-# Ruby Ikastaroa
+# 💎 Ruby Ikastaroa
 Proiektu honen bitartez Ruby ikastaro bat ematen da.
 
 # Nola dago egina
 Ruby on Rails proiektua da berez, eta hementxe duzu kodea ikusgai
+- 💻 [Kodea](https://github.com/pxai/ruby-rails-ikastaroa "Proiektuaren kodea")
 # Egilea
 Pello Altadill 
 - 🌐 [http://pello.io](http://pello.io "Webgune pertsonala")

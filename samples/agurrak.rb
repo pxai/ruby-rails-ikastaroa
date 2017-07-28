@@ -1,1 +1,1 @@
-puts "Kaixo mundua"
+puts "Kaixo"
