@@ -3,9 +3,10 @@ Rails.application.routes.draw do
   get 'kaixo/index'
   get 'kaixo/kaixo'
   
-  #get 'ikastaroa/index'
-  #get 'ikastaroa/iruzkinak'
-  #get 'ikastaroa/aldagaiak'
+  get 'ikastaroa/index'
+  get 'ikastaroa/kaixo'
+  get 'ikastaroa/iruzkinak'
+  get 'ikastaroa/aldagaiak'
   
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

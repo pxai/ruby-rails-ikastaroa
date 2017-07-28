@@ -41,17 +41,35 @@
       color: #F0F0F0;
       background: #C52F24;
       padding: 0.5em 1.5em;
-    }
+    border-radius: 5px 15px;
+    padding: 1em;
+}
 
+    nav a {
+        color: white;
+        font-weight: bold;
+        text-decoration: none;    
+    }
+    
+        nav a:hover {
+        color: white;
+        font-weight: bolder;
+        text-decoration: underline;    
+    }
+    
     h1 {
       margin: 0.2em 0;
-      line-height: 1.1em;
-      font-size: 2em;
+      font-family: : 'Raleway', sans-serif, arial;
     }
 
     h2 {
       color: #C52F24;
-      line-height: 25px;
+      font-family: 'Raleway', sans-serif, arial;
+    }
+    
+    h3 {
+      color: #C52F24;
+      font-family: 'Raleway', sans-serif, arial;
     }
 
     .details {
@@ -128,9 +146,10 @@
     .hidden {
       display: none;
     }
-
+/*
     a { color: #980905; }
     a:visited { color: #666; }
     a.trace-frames { color: #666; }
     a:hover { color: #C52F24; }
     a.trace-frames.selected { color: #C52F24 }
+*/
