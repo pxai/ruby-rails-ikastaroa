@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ruby Ikastaroa</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+  <header>
+    <%= image_tag "header-ruby-logo.png" %>
+  <h1>Ruby Ikastaroa</h1>
+</header>
+<nav>
+  Etxea | Ruby oinarriak
+</nav>
+<div id="container">
+<%= yield %>
+</div>
+<footer>
+  </footer>
+</body>
+</html>
