@@ -33,21 +33,27 @@ end
 
 class BesteModuBat
     def metodo1
+        puts "metodo1"
     end
 
     def metodo2
+        puts "metodo2"
     end
 
     def metodo3
+        puts "metodo3"
     end
 
     def metodo4
+        puts "metodo4"
     end
 
     def metodo5
+        puts "metodo5"
     end
 
     def metodo6
+        puts "metodo6"
     end
 
     public  :metodo1, :metodo6
