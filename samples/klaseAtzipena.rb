@@ -1,3 +1,4 @@
+# public, protected eta private nola jarri
 class Klasea
     # besterik ezean, publikoa
     def metodo1
@@ -31,6 +32,8 @@ class Klasea
     end
 end
 
+
+# Beste modu bat public, protected eta private jartzeko: bukaeran
 class BesteModuBat
     def metodo1
         puts "metodo1"
