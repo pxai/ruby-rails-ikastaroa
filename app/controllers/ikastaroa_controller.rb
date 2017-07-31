@@ -21,4 +21,16 @@ class IkastaroaController < ApplicationController
 
   def switchcase
   end
+
+  def funtzioak
+  end
+
+  def klaseak
+  end
+
+  def klaseatzipena
+  end
+
+  def salbuespenak
+  end
 end

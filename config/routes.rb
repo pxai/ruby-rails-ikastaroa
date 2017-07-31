@@ -9,8 +9,12 @@ Rails.application.routes.draw do
   get 'ikastaroa/aldagaiak'
   get 'ikastaroa/eragileak'
   get 'ikastaroa/baldintzak'
+  get 'ikastaroa/switchcase'
   get 'ikastaroa/funtzioak'
-
+  get 'ikastaroa/klaseak'
+  get 'ikastaroa/klaseatzipena'
+  get 'ikastaroa/salbuespenak' 
+  
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
