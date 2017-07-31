@@ -18,6 +18,7 @@ puts 10.0 / 7          # 1.42857...
 puts 10 / 7.0          # 1.42857...
 
 # Logikoak
+# &&, ||, !
 a = true && true       # true
 b = false || true      # true
 c = !false             # true
