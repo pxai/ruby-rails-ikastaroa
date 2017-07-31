@@ -82,4 +82,5 @@ production:
   <<: *default
   database: de7qpfeq5j2tnf
   username: zvwzealoksudbs
+  url: <%= ENV['DATABASE_URL'] %>
   password: <%= ENV['MYAPP_DATABASE_PASSWORD'] %>
