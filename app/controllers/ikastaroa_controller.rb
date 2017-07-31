@@ -12,4 +12,13 @@ class IkastaroaController < ApplicationController
   
   def aldagaiak
   end
+
+  def eragileak
+  end
+
+  def baldintzak
+  end
+
+  def switchcase
+  end
 end
