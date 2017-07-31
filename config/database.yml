@@ -83,5 +83,5 @@ production:
 #  host: ec2-46-137-97-169.eu-west-1.compute.amazonaws.com
 #  database: de7qpfeq5j2tnf
 #  username: zvwzealoksudbs00
-  url: <%= ENV['DATABASE_URL'] %>
+ url: <%= ENV['DATABASE_URL'] %>
 #  password: <%= ENV['MYAPP_DATABASE_PASSWORD'] %>
