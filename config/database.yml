@@ -80,7 +80,8 @@ test:
 #
 production:
   <<: *default
-  database: de7qpfeq5j2tnf
-  username: zvwzealoksudbs
+#  host: ec2-46-137-97-169.eu-west-1.compute.amazonaws.com
+#  database: de7qpfeq5j2tnf
+#  username: zvwzealoksudbs
   url: <%= ENV['DATABASE_URL'] %>
-  password: <%= ENV['MYAPP_DATABASE_PASSWORD'] %>
+#  password: <%= ENV['MYAPP_DATABASE_PASSWORD'] %>
