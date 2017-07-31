@@ -14,3 +14,11 @@ faltsua = false
 puts "#{egia} epa"
 
 pisua = "testua"
+
+# esleipen anitzak
+a, b, c = 0, 3, 2
+
+puts b
+
+# Konstanteak, larria erabili
+Konstantea = 3.1415

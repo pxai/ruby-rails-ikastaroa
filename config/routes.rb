@@ -2,12 +2,18 @@ Rails.application.routes.draw do
 
   get 'kaixo/index'
   get 'kaixo/kaixo'
-  
   get 'ikastaroa/index'
   get 'ikastaroa/kaixo'
   get 'ikastaroa/iruzkinak'
   get 'ikastaroa/aldagaiak'
-  
+  get 'ikastaroa/eragileak'
+  get 'ikastaroa/baldintzak'
+  get 'ikastaroa/switchcase'
+  get 'ikastaroa/funtzioak'
+  get 'ikastaroa/klaseak'
+  get 'ikastaroa/klaseatzipena'
+  get 'ikastaroa/salbuespenak' 
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
@@ -62,5 +68,5 @@ Rails.application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
-    root 'kaixo#index'
+  root 'kaixo#index'
 end

@@ -39,6 +39,17 @@ rails server
 Helbide honetara jo:
 [http://localhost:3000](http://localhost:3000 "Zerbitzari lokala")
 
+# Heroku
+Ez ahaztu, heroku CLIa jeitsi eta:
+```
+heroku git:remote -a rubykastaroa
+```
+Non _rubykastaroa_ app izena da.
+Eta gero:
+```
+git push heroku master
+```
+
 # Egilea
 Pello Altadill 
 - 🌐 [http://pello.io](http://pello.io "Webgune pertsonala")
