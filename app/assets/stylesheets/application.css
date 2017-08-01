@@ -153,3 +153,15 @@
     a:hover { color: #C52F24; }
     a.trace-frames.selected { color: #C52F24 }
 */
+
+ul.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul.menu li {
+  list-style: none;
+  display: inline;
+  margin-right: 1em;
+}
