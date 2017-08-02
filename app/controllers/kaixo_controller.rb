@@ -11,6 +11,6 @@ class KaixoController < ApplicationController
   def iruzkinaGorde 
     @iruzkina = Iruzkina.new(params.require(:iruzkina).permit(:iruzkina))
     @iruzkina.save
-    redirect_to 'kaixo/index'
+    redirect_to action: "index"
   end
 end
