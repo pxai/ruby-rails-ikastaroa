@@ -1,7 +1,9 @@
 Rails.application.routes.draw do
 
+  resources :iruzkinak
   get 'kaixo/index'
   get 'kaixo/kaixo'
+  post 'kaixo/iruzkinaGorde'
   get 'ikastaroa/index'
   get 'ikastaroa/kaixo'
   get 'ikastaroa/iruzkinak'

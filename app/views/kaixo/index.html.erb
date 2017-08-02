@@ -1,4 +1,28 @@
 <%= image_tag "rubyprogramaziolengoaia.png" %>
 <h2>Kaixo!!</h2>
 <p>Kaixo Mundua, ongi etorri Ruby lengoaira</p>
+<hr>
+<h5>Iruzkinak</h5>
+<%= form_for :iruzkina, url: 'iruzkinaGorde' do |f| %>
+    <div>
+        <%= f.label :iruzkina %>
+    </div>
+    <div>
+        <%= f.text_area :iruzkina, placeholder: "Iruzkin berria sar" %>
+    </div>
+    <div>
+        <%= f.submit "Gorde" %>
+    </div>
+<% end %>
+<h6>Jasotakoak</h6>
+<div>
+    <% @iruzkinak.each do |iruzkina| %>
+    <div class="iruzkina">
+        <%= iruzkina.iruzkina %>
+        <div class="data"> 
+            <%= iruzkina.data %>
+        </div>
+    </div>
+    <% end %>
+</div>
 

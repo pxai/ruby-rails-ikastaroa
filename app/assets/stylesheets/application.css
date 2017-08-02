@@ -165,3 +165,12 @@ ul.menu li {
   display: inline;
   margin-right: 1em;
 }
+
+.iruzkina {
+  margin: 1em 2em;
+}
+
+.iruzkina.data {
+  margin-top: 1em;
+  color: gray;
+}
