@@ -4327,6 +4327,7 @@ Processing by IkastaroaController#switchcase as HTML
   Rendered shared/_ikastaroa.html.erb (20.0ms)
   Rendered shared/_oina.html.erb (0.0ms)
 Completed 200 OK in 181ms (Views: 180.4ms | ActiveRecord: 0.0ms)
+<<<<<<< HEAD
 
 
 Started GET "/ikastaroa/switchcase" for ::1 at 2017-08-01 14:49:45 +0200
@@ -6647,3 +6648,5 @@ ActionController::RoutingError (No route matches [GET] "/stylesheets/stylesheets
   Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (1.0ms)
   Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.0ms)
   Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (2191.0ms)
+=======
+>>>>>>> 893780d6f69dd158e3bf39d24ac21e002b1bfa86
