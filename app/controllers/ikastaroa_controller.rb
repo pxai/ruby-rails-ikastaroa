@@ -21,6 +21,9 @@ class IkastaroaController < ApplicationController
 
   def switchcase
   end
+  
+  def arraiak
+  end
 
   def funtzioak
   end

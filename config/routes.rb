@@ -12,6 +12,7 @@ Rails.application.routes.draw do
   get 'ikastaroa/eragileak'
   get 'ikastaroa/baldintzak'
   get 'ikastaroa/switchcase'
+  get 'ikastaroa/arraiak' 
   get 'ikastaroa/funtzioak'
   get 'ikastaroa/klaseak'
   get 'ikastaroa/klaseatzipena'
