@@ -4447,6 +4447,7 @@ Processing by IkastaroaController#kaixo as HTML
   Rendered shared/_ikastaroa.html.erb (17.0ms)
   Rendered shared/_oina.html.erb (0.0ms)
 Completed 200 OK in 166ms (Views: 165.5ms | ActiveRecord: 0.0ms)
+<<<<<<< HEAD
 
 
 Started GET "/ikastaroa/kaixo" for ::1 at 2017-08-01 23:50:17 +0200
@@ -6956,3 +6957,5 @@ ActionController::RoutingError (No route matches [GET] "/stylesheets/stylesheets
   Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (1.0ms)
   Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.0ms)
   Rendered C:/RailsInstaller/Ruby2.3.0/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (2232.0ms)
+=======
+>>>>>>> 4fe82a2650dec41ba6862cebf6f94e1c871293d3

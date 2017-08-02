@@ -164,6 +164,7 @@ ul.menu li {
   list-style: none;
   display: inline;
   margin-right: 1em;
+<<<<<<< HEAD
 }
 
 .iruzkina {
@@ -173,4 +174,6 @@ ul.menu li {
 .iruzkina.data {
   margin-top: 1em;
   color: gray;
+=======
+>>>>>>> 4fe82a2650dec41ba6862cebf6f94e1c871293d3
 }
