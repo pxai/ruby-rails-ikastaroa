@@ -8,4 +8,8 @@ class IruzkinaTest < ActiveSupport::TestCase
     def test_the_truth
       assert true
     end
+    test "should not save article without title" do
+      iruzkina = Iruzkina.new
+      assert_not iruzkina.save, "Saved the iruzkina without a title"
+    end
 end
