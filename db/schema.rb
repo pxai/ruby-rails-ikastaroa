@@ -13,17 +13,7 @@
 
 ActiveRecord::Schema.define(version: 20170801214741) do
 
-  # These are extensions that must be enabled in order to support this database
-  enable_extension "plpgsql"
-
   create_table "iruzkinak", force: :cascade do |t|
-    t.text     "iruzkina"
-    t.datetime "data",            default: "now()"
-    t.integer  "idpost",          default: 0,       null: false
-    t.integer  "iderabiltzailea", default: 0,       null: false
-  end
-
-  create_table "iruzkinas", force: :cascade do |t|
     t.string   "testua"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
